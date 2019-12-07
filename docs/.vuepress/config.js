@@ -1,4 +1,9 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around'
+  postcss: {
+    plugins: [
+      require('tailwindcss'),
+      require('autoprefixer'),
+      require('postcss-preset-env')
+    ]
+  }
 }

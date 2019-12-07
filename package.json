@@ -9,6 +9,7 @@
     "lint": "eslint --ext .js,.vue --fix"
   },
   "dependencies": {
+    "tailwindcss": "^1.1.4",
     "vuepress": "^1.2.0"
   },
   "devDependencies": {
@@ -22,7 +23,8 @@
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.0.1",
     "husky": "^3.1.0",
-    "lint-staged": "^9.5.0"
+    "lint-staged": "^9.5.0",
+    "postcss-preset-env": "^6.7.0"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint --fix"
